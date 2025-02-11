@@ -8,8 +8,8 @@ import pandas as pd
 application = Flask(__name__)
 app=application
 
-scaler=pickle.load(open(r"C:\Users\Aditya Deshmukh\OneDrive\Desktop\data science\Diabetes-Deployment-With-BeanStalk-main (2)\Diabetes-Deployment-With-BeanStalk-main\Model\standard.pkl", "rb"))
-model = pickle.load(open(r"C:\Users\Aditya Deshmukh\OneDrive\Desktop\data science\Diabetes-Deployment-With-BeanStalk-main (2)\Diabetes-Deployment-With-BeanStalk-main\Model\model.pkl", "rb"))
+scaler=pickle.load(open(r"C:\Users\Aditya Deshmukh\OneDrive\Desktop\data science\diabetes-project-prediction-using-decion-tree-main\Diabetes-Deployment-With-BeanStalk-main\Model\standard.pkl", "rb"))
+model = pickle.load(open(r"C:\Users\Aditya Deshmukh\OneDrive\Desktop\data science\diabetes-project-prediction-using-decion-tree-main\Diabetes-Deployment-With-BeanStalk-main\Model\model.pkl", "rb"))
 
 
 ## Route for homepage
